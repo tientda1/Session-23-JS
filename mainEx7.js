@@ -5,7 +5,7 @@ let num = "";
 for (let i = 0; i <= input.length; i++) {
     if (i === input.length || input[i] === " ") {
         if (num !== "") {
-            let value = Number(num); // Chuyển đổi sang số
+            let value = Number(num);
             if (!isNaN(value)) {
                 if (max === null || value > max) {
                     max1 = max;
